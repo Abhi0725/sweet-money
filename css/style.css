@@ -1,0 +1,189 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+#top-bar{
+margin-bottom:5px;
+}
+
+#logo-text{
+display:block;
+width:218px;
+background-color:#55b0b0;
+padding:6px 15px;
+text-decoration:none; 
+font-size:36px; 
+font-family: 'Passion One', cursive; 
+color:#fff;
+border-radius:20px;
+margin-top:-10px;
+box-shadow:4px 4px 2px #ccc;
+transition: all 0.5s ease;
+}
+
+#logo-text:hover{
+box-shadow: none;
+}
+
+marquee{
+height:25px;
+font-size:18px;
+color:#FFFFFF; 
+background: rgba(85, 176, 176, 0.92);
+border-radius:5px;
+}
+
+.big-img-div{
+background:url(../img/home-big-img.jpg) no-repeat; 
+min-height:450px; 
+margin:-10px 15px auto;
+}
+
+.big-img-div h1{
+font-family: 'Passion One', cursive; 
+padding:20px 50px; 
+text-shadow: 2px 2px #000; 
+color:#FFF; 
+font-size:39px; 
+letter-spacing:3px; 
+font-weight: normal;
+}
+
+.big-img-div+div{
+background: rgba(0, 0, 0, 0.61); 
+text-align:center; 
+color:#FFFFFF; 
+margin:-80px 15px auto; 
+font-family: 'Passion One', cursive; 
+font-size:39px;
+text-transform:uppercase;
+}
+
+.big-img-div+div > p{
+background: rgba(85, 176, 176, 0.92); 
+font-family:Calibri; 
+font-size:18px; 
+color:#FFFFFF; 
+min-height:50px; 
+padding:20px;
+text-transform:none;
+}
+
+.service-desc-box{
+background-color:#efefef; 
+margin:-10px 1px auto;
+min-height:400px;
+}
+
+.service-desc-box > div{
+margin:50px auto;
+}
+
+.service-desc-box div.col-sm-4{
+margin-bottom:40px;
+}
+
+.round-glyphs{
+display:block; 
+border:1px solid #cfcfcf; 
+color:#5fb4b4; 
+border-radius:50%; 
+height:150px; 
+width:150px; 
+margin:auto;
+transition: all 0.5s ease;
+
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out; 
+-o-transition: all 0.5s ease-in-out; 
+-ms-transition: all 0.5s ease-in-out; 
+}
+
+.round-glyphs:hover{
+background-color:#5fb4b4;
+color:#FFFFFF;
+-webkit-transform: rotate(360deg); 
+-moz-transform: rotate(360deg); 
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg); 
+
+}
+
+.round-glyphs h1{
+padding:30px;
+}
+
+.round-glyphs + h4{
+font-family:'Passion One', cursive;
+color:#323029; 
+font-weight:normal; 
+letter-spacing: 2px; 
+font-size:24px;
+}
+
+.footer{
+margin-top:5px;
+background:url(../img/footer-bg.jpg) center 0 no-repeat #323232;
+min-height:60px;
+font-family:'Passion One', cursive;
+color:#a5a5a5;
+font-size:16px;
+letter-spacing:1px;
+text-align:center;
+padding-top:35px;
+}
+
+.footer a{
+text-decoration:none;
+color:#ccc;
+transition: all 0.5s ease;
+}
+
+.footer a:hover{
+color:#5fb4b4;
+}
+
+#up-btn{
+position:fixed; 
+bottom:30px; 
+right:30px; 
+text-align:center; 
+border:2px solid #ccc; 
+padding-top:10px; 
+border-radius:50%; 
+display:block; 
+width:60px; 
+height:60px; 
+font-size:26px;
+color:#5fb4b4;
+transition: all 0.5s ease;
+}
+
+#up-btn:hover{
+background-color:#5fb4b4;
+color:#fff;
+}
+
+.page-header{
+font-family:'Passion One', cursive;
+letter-spacing:1px;
+font-size:39px;
+border-bottom:5px solid #5fb4b4;
+}
+
+tr#header{
+background-color:#5fb4b4; 
+color:#fff;
+}
+
+tr#header:hover{
+background-color:#5fb4b4; 
+color:#fff;
+}
+
+
